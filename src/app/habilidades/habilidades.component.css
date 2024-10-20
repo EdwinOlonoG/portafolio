@@ -1,0 +1,61 @@
+.habilidades {
+    margin: 80px 20px;
+    text-align: left;
+  }
+  
+  h2 {
+    color: #04659c;
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: justify;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .skill-content {
+    max-width: 600px;
+  }
+  
+  .skill-content h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #04659c;
+  }
+  
+  .skill-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+
+  .two-columns {
+    grid-template-columns: 1fr 1fr;
+    height: min-content;
+    width: max-content;
+  }
+  .left {
+    grid-column: 1;
+  }
+  .right {
+    grid-column: 2;
+  }
+
+  

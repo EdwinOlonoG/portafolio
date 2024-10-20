@@ -1,0 +1,53 @@
+.landing {
+    margin-top: 150px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 20px;
+    background-color: #04659c;
+    color: white;
+    animation-name: opacity;
+    animation-duration: 4s;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 200px;
+}
+
+.left-side {
+    grid-column: 1;
+}
+
+.right-side {
+    grid-column: 2;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.landing h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+/* @keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
